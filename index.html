@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Aulas e laboratórios de TI do Professor Donald: Git, Linux, redes e desenvolvimento web.">
+<title>Ensino de TI | Professor Donald</title>
+<style>
+:root{color-scheme:dark;--bg:#0b1120;--panel:#141f33;--ink:#eef4ff;--muted:#bac8dc;--accent:#7de2c6}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:1rem/1.65 system-ui,sans-serif}a{color:var(--accent);text-underline-offset:4px}a:focus-visible,button:focus-visible{outline:3px solid #fff;outline-offset:5px}header,main,footer{max-width:1100px;margin:auto;padding:24px}header{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;border-bottom:1px solid #334155}.brand{font-weight:750;color:var(--ink);text-decoration:none}nav{display:flex;gap:24px;flex-wrap:wrap}.hero{padding:60px 0 40px}.eyebrow{color:var(--accent);font-size:.8rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase}h1{font-size:clamp(2.3rem,6vw,4.8rem);line-height:1.1;letter-spacing:-.04em;max-width:850px;margin:18px 0 24px}h2{font-size:1.6rem;line-height:1.3}h3{margin:12px 0;font-size:1.35rem}.intro{max-width:650px;color:var(--muted);font-size:1.15rem}.pill{display:inline-block;margin:12px 12px 0 0;padding:10px 18px;background:var(--accent);color:#0b1120;border-radius:8px;font-weight:700;text-decoration:none}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:18px;margin:24px 0 48px}.card,.demo{border:1px solid #334155;border-radius:16px;padding:24px;background:var(--panel)}.number{color:var(--accent);font:700 .9rem monospace}.card p,.demo p,footer{color:var(--muted)}.card a{font-weight:650}.demo{margin:40px 0}.demo button{border:0;border-radius:8px;padding:12px 18px;background:var(--accent);color:#0b1120;font:700 1rem system-ui;cursor:pointer}.demo button.secondary{background:transparent;border:1px solid #8192aa;color:var(--ink);margin:8px}#resultado{min-height:2em}footer{border-top:1px solid #334155;font-size:.9rem}.skip{position:absolute;left:12px;top:-80px;background:#fff;color:#000;padding:12px}.skip:focus{top:8px}
+</style>
+</head>
+<body>
+<a class="skip" href="#conteudo">Ir para o conteúdo</a>
+<header><a class="brand" href="https://github.com/profdodo">Professor Donald / TI</a><nav aria-label="Principal"><a href="#trilhas">Trilhas</a><a href="https://github.com/profdodo/ensino-de-ti/blob/main/GUIA-DOCENTE.md">Para professores</a><a href="https://github.com/profdodo/ensino-de-ti">Repositório</a></nav></header>
+<main id="conteudo">
+<section class="hero"><p class="eyebrow">Tecnologia que se aprende fazendo</p><h1>Aprender.<br>Praticar.<br>Explicar.</h1><p class="intro">Uma central de aulas e laboratórios de Tecnologia da Informação. Do primeiro commit ao diagnóstico de redes, com desafios e resoluções comentadas.</p><a class="pill" href="#trilhas">Escolha sua trilha</a><p>Donald Savazoni Morelato · Professor de tecnologia</p></section>
+<section id="trilhas" aria-labelledby="titulo-trilhas"><p class="eyebrow">Quatro caminhos para começar</p><h2 id="titulo-trilhas">Escolha o que você quer praticar</h2><div class="grid">
+<article class="card"><span class="number">01 / VERSIONAMENTO</span><h3>Git e GitHub</h3><p>Registre mudanças, trabalhe com branches e entenda a colaboração por pull requests.</p><a href="https://github.com/profdodo/ensino-de-ti/blob/main/aulas/git.md">Abrir aula de Git</a></article>
+<article class="card"><span class="number">02 / SISTEMAS</span><h3>Linux</h3><p>Navegue por arquivos e construa um relatório simples do ambiente no terminal.</p><a href="https://github.com/profdodo/ensino-de-ti/blob/main/aulas/linux.md">Abrir aula de Linux</a></article>
+<article class="card"><span class="number">03 / CONECTIVIDADE</span><h3>Redes</h3><p>Entenda IPv4, gateway e DNS e investigue falhas a partir de evidências.</p><a href="https://github.com/profdodo/ensino-de-ti/blob/main/aulas/redes.md">Abrir aula de redes</a></article>
+<article class="card"><span class="number">04 / DESENVOLVIMENTO</span><h3>Web</h3><p>Combine HTML, CSS e JavaScript em uma página com interação e foco na acessibilidade.</p><a href="https://github.com/profdodo/ensino-de-ti/blob/main/aulas/web.md">Abrir aula de web</a></article>
+</div></section>
+<section class="demo" aria-labelledby="titulo-demo"><p class="eyebrow">Experimente uma interação</p><h2 id="titulo-demo">Um clique, três camadas da web</h2><p>O HTML organiza estes elementos, o CSS define sua aparência e o JavaScript abaixo responde ao botão. Experimente também navegar com Tab e ativar com Enter.</p><button id="concluir" type="button">Marcar atividade como concluída</button><button class="secondary" id="reiniciar" type="button">Reiniciar</button><p id="resultado" role="status"></p><p>Esta demonstração não salva dados. Ao recarregar a página, a mensagem é apagada.</p></section>
+<section aria-labelledby="titulo-docente"><h2 id="titulo-docente">Ensinar também é compartilhar o caminho.</h2><p class="intro">O guia docente inclui uma sequência de duas aulas, sugestões de adaptação e uma rubrica de avaliação de 10 pontos.</p><a class="pill" href="https://github.com/profdodo/ensino-de-ti/blob/main/GUIA-DOCENTE.md">Conheça o guia docente</a></section>
+</main>
+<footer><p>Ensino de TI · Professor Donald Savazoni Morelato</p><p>Materiais introdutórios para estudo e adaptação pedagógica. <a href="https://github.com/profdodo">Conheça meus projetos no GitHub</a>.</p></footer>
+<script>
+const resultado=document.querySelector("#resultado");
+document.querySelector("#concluir").addEventListener("click",()=>{resultado.textContent="Atividade concluída. Agora explique o que você aprendeu!";});
+document.querySelector("#reiniciar").addEventListener("click",()=>{resultado.textContent="";});
+</script>
+</body>
+</html>
